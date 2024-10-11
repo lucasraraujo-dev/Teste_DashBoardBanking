@@ -2,37 +2,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Ferramentas utilizadas
 
- Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Utilizei TailwindCSS como framework CSS, NextJS 14 com App Router, consulta de API’s via **fetch** e React Hooks
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Banking_DashBoard
+# Banking DashBoard
 
-Bem-vindo ao Teste_DashBoard Banking, um painel bancario que mostra as contas e valores, com Next.js 14 e Reactjs. Este repositório mostra a implementação de um painel com de criação e busca de contas com uma api.
+Bem-vindo ao Teste_DashBoard Banking, um painel bancario que mostra as contas e valores, com Next.js 14. Este repositório mostra a implementação de um painel com de criação e busca de contas com a API fornecida.
 
-Começando 🚀
-Clone este repositório para sua máquina local.
-Instale dependências usando npm installou yarn install.
-Execute o servidor de desenvolvimento: npm run dev ou yarn dev.
-Abra http://localhost:3000 no seu navegador para ver o resultado.
-Comece a editar a página modificando app/page.js. A página é atualizada automaticamente conforme você edita o arquivo.
+## Começando 🚀
 
-utilizei TailwindCSS como framework CSS, NextJS 14 com App Router, consulta de API’s via fetch e uso de React Hooks
+- Clone este repositório para sua máquina local.
+- Instale dependências usando npm installou yarn install.
+- Execute o servidor de desenvolvimento: npm run dev ou yarn dev.
+- Abra http://localhost:3000 no seu navegador para ver o resultado.
 
-*Consultas de API com Fetch
+### Consultas de API com `Fetch`
+
 Para buscar dados de uma API em um componente, usamos o fetch. A consulta de API geralmente é realizada dentro do useEffect para garantir que os dados sejam carregados após a montagem do componente.
-useState: Usado para armazenar os dados e o estado de carregamento.
-useEffect: Executa a chamada de API ao montar o componente.
+
+`useState`: Usado para armazenar os dados e o estado de carregamento.
+`useEffect`: Executa a chamada de API ao montar o componente.
 fetch: Realiza a requisição HTTP para uma API externa.
-
-*Uso de React Hooks (useState e useEffect)
-*useState
-useState é um Hook que permite adicionar estado a componentes funcionais. Ele retorna um valor atual e uma função para atualizar esse valor.
-
-*useEffect
-useEffect é um Hook que permite realizar efeitos colaterais em componentes funcionais. Ele é similar aos métodos de ciclo de vida como componentDidMount e componentDidUpdate.
-
-* Uso de TailwindCSS para Estilização
-A estilização com o TailwindCSS é feita diretamente nos componentes usando classes utilitárias.
-
-Conclusão
-Esta documentação básica cobre como configurar um projeto Next.js 14 com TailwindCSS, fazer consultas de API usando fetch e utilizar React Hooks como useState e useEffect. Essa abordagem permite criar interfaces modernas, eficientes e estilizadas rapidamente.

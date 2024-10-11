@@ -16,27 +16,7 @@ Execute o servidor de desenvolvimento: npm run dev ou yarn dev.
 Abra http://localhost:3000 no seu navegador para ver o resultado.
 Comece a editar a página modificando app/page.js. A página é atualizada automaticamente conforme você edita o arquivo.
 
-utilizei TailwindCSS como framework CSS, NextJS 14 com App Router, consulta de API’s via fetch e uso de React Hooks 
-
-* 1.2. Instalação do TailwindCSS
-Após a criação do projeto, instale o TailwindCSS no Next.js.
-
-Instale as dependências do Tailwind:
-
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-Configure o arquivo tailwind.config.js:
-javascript
-
-No arquivo globals.css (ou crie um), adicione o seguinte:
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-*1.3. Configuração do App Router (Next.js 14)
-Com o Next.js 14, o App Router introduz uma nova estrutura. Ao invés de usar pages, agora você utiliza a pasta app para organizar rotas.
-
+utilizei TailwindCSS como framework CSS, NextJS 14 com App Router, consulta de API’s via fetch e uso de React Hooks
 
 *Consultas de API com Fetch
 Para buscar dados de uma API em um componente, usamos o fetch. A consulta de API geralmente é realizada dentro do useEffect para garantir que os dados sejam carregados após a montagem do componente.
